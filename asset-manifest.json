@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PoodleWebsite/static/css/main.e5cc1eb2.css",
-    "main.js": "/PoodleWebsite/static/js/main.8c7cec53.js",
+    "main.js": "/PoodleWebsite/static/js/main.8d58f23c.js",
     "static/js/787.c4e7f8f9.chunk.js": "/PoodleWebsite/static/js/787.c4e7f8f9.chunk.js",
     "static/media/image6.JPEG": "/PoodleWebsite/static/media/image6.b1f2e1af9ff9c83cbd74.JPEG",
     "static/media/image16.JPEG": "/PoodleWebsite/static/media/image16.21d6263bddbb2a763d9d.JPEG",
@@ -24,11 +24,11 @@
     "static/media/image9.JPEG": "/PoodleWebsite/static/media/image9.568b8b1446f366dd27fa.JPEG",
     "index.html": "/PoodleWebsite/index.html",
     "main.e5cc1eb2.css.map": "/PoodleWebsite/static/css/main.e5cc1eb2.css.map",
-    "main.8c7cec53.js.map": "/PoodleWebsite/static/js/main.8c7cec53.js.map",
+    "main.8d58f23c.js.map": "/PoodleWebsite/static/js/main.8d58f23c.js.map",
     "787.c4e7f8f9.chunk.js.map": "/PoodleWebsite/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5cc1eb2.css",
-    "static/js/main.8c7cec53.js"
+    "static/js/main.8d58f23c.js"
   ]
 }
