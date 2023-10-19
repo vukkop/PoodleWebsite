@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/PoodleWebsite/static/css/main.e5cc1eb2.css",
+    "main.js": "/PoodleWebsite/static/js/main.8c7cec53.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/PoodleWebsite/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/image6.JPEG": "/PoodleWebsite/static/media/image6.b1f2e1af9ff9c83cbd74.JPEG",
+    "static/media/image16.JPEG": "/PoodleWebsite/static/media/image16.21d6263bddbb2a763d9d.JPEG",
+    "static/media/image5.JPEG": "/PoodleWebsite/static/media/image5.cd0d9d88eefe4fd524f7.JPEG",
+    "static/media/image20.JPEG": "/PoodleWebsite/static/media/image20.abd7b361f64593f0ddb5.JPEG",
+    "static/media/image17.JPEG": "/PoodleWebsite/static/media/image17.e46c42e30db0e18e8899.JPEG",
+    "static/media/image14.JPEG": "/PoodleWebsite/static/media/image14.d9bd15ea08388b3a77ea.JPEG",
+    "static/media/image21.JPEG": "/PoodleWebsite/static/media/image21.a7af0842333b9eca07af.JPEG",
+    "static/media/image13.JPEG": "/PoodleWebsite/static/media/image13.942d18fb64753283e8c9.JPEG",
+    "static/media/image2.JPEG": "/PoodleWebsite/static/media/image2.680b12f47a9cedf256f2.JPEG",
+    "static/media/image19.JPEG": "/PoodleWebsite/static/media/image19.259450406fc2058c2c91.JPEG",
+    "static/media/image7.JPEG": "/PoodleWebsite/static/media/image7.2d4295d3e5ae57eb5384.JPEG",
+    "static/media/image11.JPEG": "/PoodleWebsite/static/media/image11.35c73c907139dd183d0f.JPEG",
+    "static/media/image15.JPEG": "/PoodleWebsite/static/media/image15.8e36a61ab0d1ac8ddd1f.JPEG",
+    "static/media/image12.JPEG": "/PoodleWebsite/static/media/image12.4a1df83cad76460de28e.JPEG",
+    "static/media/image18.JPEG": "/PoodleWebsite/static/media/image18.30e471de304dd091e3ce.JPEG",
+    "static/media/image10.JPEG": "/PoodleWebsite/static/media/image10.4205392d27db5ede34f5.JPEG",
+    "static/media/image8.JPEG": "/PoodleWebsite/static/media/image8.93c6c871c3fc2d63b971.JPEG",
+    "static/media/image4.JPEG": "/PoodleWebsite/static/media/image4.e2ef4feb1055c60d72c6.JPEG",
+    "static/media/image9.JPEG": "/PoodleWebsite/static/media/image9.568b8b1446f366dd27fa.JPEG",
+    "index.html": "/PoodleWebsite/index.html",
+    "main.e5cc1eb2.css.map": "/PoodleWebsite/static/css/main.e5cc1eb2.css.map",
+    "main.8c7cec53.js.map": "/PoodleWebsite/static/js/main.8c7cec53.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/PoodleWebsite/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5cc1eb2.css",
+    "static/js/main.8c7cec53.js"
+  ]
+}
