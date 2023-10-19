@@ -1,10 +1,12 @@
 import React from 'react'
 import "./Main.css"
 import poodlePhoto from "../assets/images/image10.JPEG"
+import PuppyModal from '../components/modals/PuppyModal'
+import OurDogsModal from '../components/modals/OurDogsModal'
 
 const Main = () => {
   return (
-    <div className='mt-5'>
+    <div id='Home' className='mt-5'>
       <div className="row row-1 align-items-center">
         <div className="col-6">
           <h1 className='display-1 mt-5 heading'>
@@ -25,7 +27,7 @@ const Main = () => {
             <p>
               I fell in love with poodles because they are like Swiss Army Knives of the dog world! They can do it all; in style and can fit anywhere. They are happy to spend the day at your feet while you work and jump to action for a hike or city stroll. After a day of paddleboarding or shopping at an art festival, the poodle is happy to snuggle with you on the couch. Most important, being with you, in the center of your life, makes a poodle happy
             </p>
-            <button className='btn btn-primary btn-lg'>About Us</button>
+            <a href='#Contact' className='btn btn-primary btn-lg'>Contact Us</a>
 
           </div>
           <div className="col-5">
@@ -34,16 +36,16 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="row mt-4 text-center">
+      <div id='AboutUs' className="row mt-4 text-center">
         <h2 className='mb-4'>OUR BREEDING PRINCIPLES</h2>
         <div className="col">
-          <div class="card text-white bg-primary mb-4 p-3" style={{ height: 210 }}>
+          <div className="card text-white bg-primary mb-4 p-3" style={{ height: 210 }}>
             <h4>Looks and Health</h4>
             <p>The companion poodle must have a balanced and sound body structure to remain active and healthy. We show our parents in UKC and test through OFA and genetic testing to produce healthy</p>
           </div>
         </div>
         <div className="col">
-          <div class="card text-white bg-primary mb-4 p-3" style={{ height: 210 }}>
+          <div className="card text-white bg-primary mb-4 p-3" style={{ height: 210 }}>
             <h4>Brains</h4>
             <p>Our puppies succeed as easily trained everyday companions to their family, medical alert service dogs, dog therapy, and various sports - Obedience, Rally-O, Nosewrok, Barnhunt, and Fly Ball.</p>
           </div>
@@ -59,25 +61,81 @@ const Main = () => {
       <div className="row mt-4 text-center">
         <h2 className='mb-4'>DISCOVER OUR DOGS</h2>
         <div className="col puppies-col">
-          <div className='overlay'>
-            <h3 className='heading'>PUPPIES</h3>
+          <div data-bs-toggle="modal" data-bs-target="#PuppyModal" className='overlay d-flex justify-content-center align-items-center'>
+            <h3 className='heading '>PUPPIES</h3>
           </div>
-
         </div>
-        <div className="col our-dogs-col">
-          <div className='overlay'>
+
+
+        <div data-bs-toggle="modal" data-bs-target="#OurDogsModal" className="col our-dogs-col">
+          <div className='overlay d-flex justify-content-center align-items-center'>
             <h3 className='heading'>OUR DOGS</h3>
           </div>
         </div>
       </div>
+      <PuppyModal></PuppyModal>
+      <OurDogsModal></OurDogsModal>
 
-      <div className="row">
-        <h2 className='text-center mt-4'>CONTACT</h2>
+      <div id='Puppies' className='container mt-4 mb-5'>
+        <div className="row text-center">
 
+          <h2 className='mb-4'>AVAILABLE PUPPIES</h2>
+          <div className="col-4">
+            <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image11.JPEG')} alt="" />
+            <h4>Puppy 1</h4>
+          </div>
+          <div className="col-4">
+            <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image10.JPEG')} alt="" />
+            <h4>Puppy 2</h4>
+          </div>
+          <div className="col-4">
+            <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image13.JPEG')} alt="" />
+            <h4>Puppy 3</h4>
+          </div>
+        </div>
       </div>
 
-      <footer className='row'>
 
+
+      <div id='Contact' className="container mb-4 mt-4">
+        <form action="">
+          <div className="card border-secondary mb-3">
+            <div className="card-header bg-primary-subtle"><h3 className='text-center'>CONTACT</h3></div>
+            <div className="card-body">
+              <div className="row ">
+
+                <div className="col-6">
+                  <div className="mb-3">
+                    <label htmlFor="Name" className="form-label">Name</label>
+                    <input type="text" className="form-control" id="Name" placeholder="Please provide your name" />
+                  </div>
+                  <div className="mb-3">
+                    <label htmlFor="Email" className="form-label">Email</label>
+                    <input type="email" className="form-control" id="Email" placeholder="name@example.com" />
+                  </div>
+                </div>
+
+                <div className="col-6">
+                  <div className="mb-3">
+                    <label htmlFor="exampleFormControlTextarea1" className="form-label">Message</label>
+                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Please write us a message, question, request..."></textarea>
+                  </div>
+                  <button className='btn btn-primary float-end'>Send</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </form>
+      </div>
+
+      <footer className='row text-center align-items-center bg-primary'>
+        <h6>
+          <small>
+            <a target="_blank" rel="noopener" className='link-hover' href="https://vukkop.github.io/Portfolio/">Created by Vuk</a>
+          </small>
+        </h6>
       </footer>
 
     </div >

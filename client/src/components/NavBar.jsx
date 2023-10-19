@@ -14,18 +14,18 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarColor01">
             <ul className="navbar-nav text-center me-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/">Home
+                <a className="nav-link" href="#Home">Home
                   <span className="visually-hidden">(current)</span>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/puppies">Puppies</a>
+                <a className="nav-link" href="#Puppies">Puppies</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">About Us</a>
+                <a className="nav-link" href="#AboutUs">About Us</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">Contact</a>
+                <a className="nav-link" href="#Contact">Contact</a>
               </li>
             </ul>
           </div>
