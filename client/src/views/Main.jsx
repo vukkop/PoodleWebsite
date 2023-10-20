@@ -3,6 +3,7 @@ import "./Main.css"
 import poodlePhoto from "../assets/images/image10.JPEG"
 import PuppyModal from '../components/modals/PuppyModal'
 import OurDogsModal from '../components/modals/OurDogsModal'
+import ContactForm from '../components/ContactForm'
 
 const Main = () => {
   return (
@@ -97,37 +98,8 @@ const Main = () => {
 
 
 
-      <div id='Contact' className="container mb-4 mt-4">
-        <form action="">
-          <div className="card border-secondary mb-3">
-            <div className="card-header bg-primary-subtle"><h3 className='text-center'>CONTACT</h3></div>
-            <div className="card-body">
-              <div className="row ">
-
-                <div className="col-6">
-                  <div className="mb-3">
-                    <label htmlFor="Name" className="form-label">Name</label>
-                    <input type="text" className="form-control" id="Name" placeholder="Please provide your name" />
-                  </div>
-                  <div className="mb-3">
-                    <label htmlFor="Email" className="form-label">Email</label>
-                    <input type="email" className="form-control" id="Email" placeholder="name@example.com" />
-                  </div>
-                </div>
-
-                <div className="col-6">
-                  <div className="mb-3">
-                    <label htmlFor="exampleFormControlTextarea1" className="form-label">Message</label>
-                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Please write us a message, question, request..."></textarea>
-                  </div>
-                  <button className='btn btn-primary float-end'>Send</button>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-        </form>
+      <div id='Contact' className="container mb-5 mt-4">
+        <ContactForm></ContactForm>
       </div>
 
       <footer className='row text-center align-items-center bg-primary'>
