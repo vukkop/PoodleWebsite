@@ -15,7 +15,7 @@ const PuppyModal = () => {
           </div>
           <div className="modal-body">
 
-            <div id="carouselPuppyCaptions" className="carousel slide" data-bs-theme="dark">
+            <div id="carouselPuppyCaptions" className="carousel slide d-flex align-items-center justify-content-center" data-bs-theme="dark">
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img src={require('../../assets/images/image4.JPEG')} className="d-block rounded mx-auto img-fluid" alt="puppy" />
@@ -93,8 +93,7 @@ const PuppyModal = () => {
                 </button>
               </div>
             </div>
-
-            <div className="modal-footer">
+            <div className="modal-footer pb-0">
               <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
             </div>
           </div>
