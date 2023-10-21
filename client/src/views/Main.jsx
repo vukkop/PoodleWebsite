@@ -63,14 +63,14 @@ const Main = () => {
         <h2 className='mb-4'>DISCOVER OUR DOGS</h2>
         <div className="col puppies-col">
           <div data-bs-toggle="modal" data-bs-target="#PuppyModal" className='overlay d-flex justify-content-center align-items-center'>
-            <h3 className='heading '>PUPPIES</h3>
+            <h3 className='heading '>PUPPIES GALLERY</h3>
           </div>
         </div>
 
 
         <div data-bs-toggle="modal" data-bs-target="#OurDogsModal" className="col our-dogs-col">
           <div className='overlay d-flex justify-content-center align-items-center'>
-            <h3 className='heading'>OUR DOGS</h3>
+            <h3 className='heading'>OUR DOGS GALLERY</h3>
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@ const Main = () => {
       <footer className='row text-center align-items-center bg-primary'>
         <h6>
           <small>
-            <a target="_blank" rel="noopener" className='link-hover' href="https://vukkop.github.io/Portfolio/">Created by Vuk</a>
+            <a target="_blank" rel="noopener noreferrer" className='link-hover' href="https://vukkop.github.io/Portfolio/">Created by Vuk</a>
           </small>
         </h6>
       </footer>

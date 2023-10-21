@@ -1,10 +1,13 @@
 import React from 'react'
+import Logo from "../assets/logo/favicon.svg"
+
 
 const NavBar = () => {
   return (
     <div className="row mb-4">
       <nav className="navbar navbar-expand-md bg-primary fixed-top" data-bs-theme="dark">
         <div className="container-fluid">
+          <img src={Logo} alt="" height={50} className='logo' />
           <a className="navbar-brand me-5" href="#Home">
             Mini Poodles
           </a>
