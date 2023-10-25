@@ -94,7 +94,7 @@ const Main = () => {
             <h4>Puppy 3</h4>
           </div>
           <div className="col-3">
-            <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image13.JPEG')} alt="" />
+            <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image22.JPEG')} alt="" />
             <h4>Puppy 4</h4>
           </div>
         </div>
