@@ -23,7 +23,7 @@ const Main = () => {
         <div className="row mt-4">
 
           <h2 className='mb-4'>WHY POODLE?</h2>
-          <div className="col-7">
+          <div className=" col-md-7 order-2 order-md-1">
             <h4>Do you value creature comforts but yearn for an adventure companion? The poodle is for you!</h4>
             <p>
               I fell in love with poodles because they are like Swiss Army Knives of the dog world! They can do it all; in style and can fit anywhere. They are happy to spend the day at your feet while you work and jump to action for a hike or city stroll. After a day of paddleboarding or shopping at an art festival, the poodle is happy to snuggle with you on the couch. Most important, being with you, in the center of your life, makes a poodle happy
@@ -31,28 +31,28 @@ const Main = () => {
             <a href='#Contact' className='btn btn-primary btn-lg'>Contact Us</a>
 
           </div>
-          <div className="col-5">
-            <img className='rounded w-100' src={poodlePhoto} alt="" />
+          <div className="col-sm-6 offset offset-sm-3 offset-md-0 col-md-5 order-1">
+            <img className='rounded w-100 mb-4' src={poodlePhoto} alt="" />
           </div>
         </div>
       </div>
 
       <div id='AboutUs' className="row mt-4 text-center">
         <h2 className='mb-4'>OUR BREEDING PRINCIPLES</h2>
-        <div className="col">
-          <div className="card text-white bg-primary mb-4 p-3" style={{ height: 210 }}>
+        <div className="col-lg-4 col-md-6">
+          <div className="card text-white bg-primary mb-4 p-3 b-p-card" >
             <h4>Looks and Health</h4>
             <p>The companion poodle must have a balanced and sound body structure to remain active and healthy. We show our parents in UKC and test through OFA and genetic testing to produce healthy</p>
           </div>
         </div>
-        <div className="col">
-          <div className="card text-white bg-primary mb-4 p-3" style={{ height: 210 }}>
+        <div className="col-lg-4 col-md-6">
+          <div className="card text-white bg-primary mb-4 p-3 b-p-card" >
             <h4>Brains</h4>
             <p>Our puppies succeed as easily trained everyday companions to their family, medical alert service dogs, dog therapy, and various sports - Obedience, Rally-O, Nosewrok, Barnhunt, and Fly Ball.</p>
           </div>
         </div>
-        <div className="col">
-          <div className="card text-white bg-primary mb-4 p-3" style={{ height: 210 }}>
+        <div className="col-lg-4">
+          <div className="card text-white bg-primary mb-4 p-3 b-p-card" >
             <h4>Upbringing</h4>
             <p>Puppies raised with early socialization curriculums are provided with the foundation to become well-adjusted adults and influence puppies' communication with humans.</p>
           </div>
@@ -81,19 +81,19 @@ const Main = () => {
         <div className="row text-center">
 
           <h2 className='mb-4'>AVAILABLE PUPPIES</h2>
-          <div className="col-3">
+          <div className="col-lg-3 col-md-6">
             <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image11.JPEG')} alt="" />
             <h4>Puppy 1</h4>
           </div>
-          <div className="col-3">
+          <div className="col-lg-3 col-md-6">
             <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image10.JPEG')} alt="" />
             <h4>Puppy 2</h4>
           </div>
-          <div className="col-3">
+          <div className="col-lg-3 col-md-6">
             <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image13.JPEG')} alt="" />
             <h4>Puppy 3</h4>
           </div>
-          <div className="col-3">
+          <div className="col-lg-3 col-md-6">
             <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image22.JPEG')} alt="" />
             <h4>Puppy 4</h4>
           </div>

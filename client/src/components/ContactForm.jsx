@@ -53,7 +53,7 @@ const ContactForm = () => {
         <div className="card-body">
           <div className="row ">
 
-            <div className="col-6">
+            <div className="col-md-6">
               <div className="mb-3">
                 <label htmlFor="name" className="form-label">Name</label>
                 <input name='name' type="text" onChange={onChangeHandler} value={contactForm.name} className="form-control" id="name" placeholder="Please provide us your name" />
@@ -68,7 +68,7 @@ const ContactForm = () => {
               </div>
             </div>
 
-            <div className="col-6">
+            <div className="col-md-6">
               <div className="mb-3">
                 <label htmlFor="message" className="form-label">Message</label>
                 <textarea name='message' onChange={onChangeHandler} value={contactForm.message} className="form-control" id="message" rows="6" placeholder="Please write us a message, question, request..."></textarea>

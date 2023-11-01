@@ -15,6 +15,10 @@
   filter: drop-shadow(5px 5px 15px #000000);
 }
 
+.b-p-card {
+  height: 190px;
+}
+
 .puppies-col {
   background-image: url("../assets/images/image14.JPEG");
   height: 500px;
@@ -64,4 +68,16 @@ footer {
 }
 .link-hover:hover {
   color: rgb(233, 233, 233);
+}
+
+@media only screen and (max-width: 1036px) {
+  .b-p-card {
+    height: 210px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .b-p-card {
+    height: fit-content;
+  }
 }
