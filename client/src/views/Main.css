@@ -14,6 +14,9 @@
   color: white;
   filter: drop-shadow(5px 5px 15px #000000);
 }
+.shadow {
+  filter: drop-shadow(5px 5px 15px #000000);
+}
 
 .b-p-card {
   height: 190px;
