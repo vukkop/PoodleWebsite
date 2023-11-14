@@ -20,67 +20,67 @@ const PuppyModal = () => {
                 <div className="carousel-item active">
                   <img src={require('../../assets/images/image4.JPEG')} className="d-block rounded mx-auto img-fluid" alt="puppy" />
                   <div className="carousel-caption d-none d-md-block">
-                    <h5 className='glow'>First slide label</h5>
+                    <h5 className='glow'>Girl</h5>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <img src={require('../../assets/images/image5.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block">
-                    <h5 className='glow'>Second slide label</h5>
+                    <h5 className='glow'>Girl</h5>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <img src={require('../../assets/images/image6.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block" >
-                    <h5 className='glow'>Third slide label</h5>
+                    <h5 className='glow'>Brown Nose</h5>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <img src={require('../../assets/images/image7.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block" >
-                    <h5 className='glow'>Third slide label</h5>
+                    <h5 className='glow'>Girl</h5>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <img src={require('../../assets/images/image8.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block" >
-                    <h5 className='glow'>Third slide label</h5>
+                    <h5 className='glow'>Girl</h5>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <img src={require('../../assets/images/image9.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block" >
-                    <h5 className='glow'>Third slide label</h5>
+                    <h5 className='glow'>Girl</h5>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <img src={require('../../assets/images/image10.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block" >
-                    <h5 className='glow'>Third slide label</h5>
+                    <h5 className='glow'>Girl</h5>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <img src={require('../../assets/images/image11.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block" >
-                    <h5 className='glow'>Third slide label</h5>
+                    <h5 className='glow'>Brown Nose</h5>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <img src={require('../../assets/images/image12.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block" >
-                    <h5 className='glow'>Third slide label</h5>
+                    <h5 className='glow'>Brundo</h5>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <img src={require('../../assets/images/image13.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block" >
-                    <h5 className='glow'>Third slide label</h5>
+                    <h5 className='glow'>Girl</h5>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <img src={require('../../assets/images/image2.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block" >
-                    <h5 className='glow'>Third slide label</h5>
+                    <h5 className='glow'>Abuk's Puppies</h5>
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselPuppyCaptions" data-bs-slide="prev">

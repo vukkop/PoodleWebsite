@@ -17,43 +17,43 @@ const OurDogsModal = () => {
                 <div className="carousel-item active">
                   <img src={require('../../assets/images/image15.JPEG')} className="d-block rounded mx-auto img-fluid" alt="puppy" />
                   <div className="carousel-caption d-none d-md-block">
-                    <h5 className='glow'>First slide label</h5>
+                    <h5 className='glow'>Sam Puppies Father</h5>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <img src={require('../../assets/images/image16.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block">
-                    <h5 className='glow'>Second slide label</h5>
+                    <h5 className='glow'>Sam Puppies Father</h5>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <img src={require('../../assets/images/image17.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block" >
-                    <h5 className='glow'>Third slide label</h5>
+                    <h5 className='glow'>Abuk Puppies Mom</h5>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <img src={require('../../assets/images/image18.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block" >
-                    <h5 className='glow'>Third slide label</h5>
+                    <h5 className='glow'>Cinnamon Abuk's Mom</h5>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <img src={require('../../assets/images/image19.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block" >
-                    <h5 className='glow'>Third slide label</h5>
+                    <h5 className='glow'>Cinnamon Abuk's Mom</h5>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <img src={require('../../assets/images/image20.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block" >
-                    <h5 className='glow'>Third slide label</h5>
+                    <h5 className='glow'>Archi Abuk's Father</h5>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <img src={require('../../assets/images/image21.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block" >
-                    <h5 className='glow'>Third slide label</h5>
+                    <h5 className='glow'>Abuk Puppies Mom</h5>
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselOurDogsCaptions" data-bs-slide="prev">
