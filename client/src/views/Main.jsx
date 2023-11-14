@@ -16,7 +16,7 @@ const Main = () => {
             </strong>
           </h1>
           <h3 className='heading'>Ultimate companion for all families</h3>
-          <a href='#Puppies' className='btn btn-primary btn-lg mt-4 shadow'>
+          <a href='#Puppies' className='btn btn-primary btn-lg mt-4 ms-2 shadow'>
             <strong>
               AVAILABLE PUPPIES <br /> NOW!
             </strong>
