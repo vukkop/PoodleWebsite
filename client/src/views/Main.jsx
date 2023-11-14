@@ -81,21 +81,17 @@ const Main = () => {
         <div className="row text-center">
 
           <h2 className='mb-4'>AVAILABLE PUPPIES</h2>
-          <div className="col-lg-3 col-md-6">
-            <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image11.JPEG')} alt="" />
-            <h4>Puppy 1</h4>
-          </div>
-          <div className="col-lg-3 col-md-6">
-            <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image10.JPEG')} alt="" />
-            <h4>Puppy 2</h4>
-          </div>
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-4">
             <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image13.JPEG')} alt="" />
-            <h4>Puppy 3</h4>
+            <h4>Girl</h4>
           </div>
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-4 ">
+            <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image11.JPEG')} alt="" />
+            <h4>Brown Nose</h4>
+          </div>
+          <div className="col-lg-4">
             <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image22.JPEG')} alt="" />
-            <h4>Puppy 4</h4>
+            <h4>Brundo</h4>
           </div>
         </div>
       </div>
