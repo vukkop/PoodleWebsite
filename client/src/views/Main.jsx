@@ -64,6 +64,30 @@ const Main = () => {
         </div>
       </div>
 
+      <div id='' className='container mt-4 mb-5'>
+        <div className="row text-center">
+          <h2 className='mb-4'>PUPPIES FOUND HAPPY HOME</h2>
+          <div className="col-lg-6">
+            <div className='image mx-auto'>
+              <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image25.JPEG')} alt="Puppie Brown Nose" />
+              <div className='rehomed'>
+                <h5 className='px-2 py-1 m-0 text-light'>Rehomed</h5>
+              </div>
+            </div>
+            <h4>Abbie</h4>
+          </div>
+          <div className="col-lg-6">
+            <div className='image mx-auto'>
+              <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image27.JPEG')} alt="Puppie Brown Nose" />
+              <div className='rehomed'>
+                <h5 className='px-2 py-1 m-0 text-light'>Rehomed</h5>
+              </div>
+            </div>
+            <h4>Keirah</h4>
+          </div>
+        </div>
+      </div>
+
       <div className="row mt-4 text-center">
         <h2 className='mb-4'>DISCOVER OUR DOGS</h2>
         <div className="col puppies-col">
@@ -82,20 +106,27 @@ const Main = () => {
       <PuppyModal></PuppyModal>
       <OurDogsModal></OurDogsModal>
 
+
+
+
       <div id='Puppies' className='container mt-4 mb-5'>
         <div className="row text-center">
-
           <h2 className='mb-4'>AVAILABLE PUPPIES</h2>
           <div className="col-lg-4">
-            <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image13.JPEG')} alt="" />
+            <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image13.JPEG')} alt="Puppie Girl" />
             <h4>Girl</h4>
           </div>
-          <div className="col-lg-4 ">
-            <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image11.JPEG')} alt="" />
+          <div className="col-lg-4">
+            <div className='image mx-auto'>
+              <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image11.JPEG')} alt="Puppie Brown Nose" />
+              <div className='rehomed'>
+                <h5 className='px-2 py-1 m-0 text-light'>Just Rehomed</h5>
+              </div>
+            </div>
             <h4>Brown Nose</h4>
           </div>
           <div className="col-lg-4">
-            <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image22.JPEG')} alt="" />
+            <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image22.JPEG')} alt="Puppie Brundo" />
             <h4>Brundo</h4>
           </div>
         </div>
