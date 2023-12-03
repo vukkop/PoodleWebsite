@@ -26,7 +26,6 @@ const Main = () => {
 
       <div className='container'>
         <div className="row mt-4">
-
           <h2 className='mb-4'>WHY POODLE?</h2>
           <div className=" col-md-7 order-2 order-md-1">
             <h4>Do you value creature comforts but yearn for an adventure companion? The poodle is for you!</h4>
@@ -34,7 +33,6 @@ const Main = () => {
               I fell in love with poodles because they are like Swiss Army Knives of the dog world! They can do it all; in style and can fit anywhere. They are happy to spend the day at your feet while you work and jump to action for a hike or city stroll. After a day of paddleboarding or shopping at an art festival, the poodle is happy to snuggle with you on the couch. Most important, being with you, in the center of your life, makes a poodle happy
             </p>
             <a href='#Contact' className='btn btn-primary btn-lg'>Contact Us</a>
-
           </div>
           <div className="col-sm-6 offset offset-sm-3 offset-md-0 col-md-5 order-1">
             <img className='rounded w-100 mb-4' src={poodlePhoto} alt="" />
@@ -64,7 +62,7 @@ const Main = () => {
         </div>
       </div>
 
-      <div id='' className='container mt-4 mb-5'>
+      <div className='container mt-4 mb-5'>
         <div className="row text-center">
           <h2 className='mb-4'>PUPPIES FOUND HAPPY HOME</h2>
           <div className="col-lg-6">
@@ -96,7 +94,6 @@ const Main = () => {
           </div>
         </div>
 
-
         <div data-bs-toggle="modal" data-bs-target="#OurDogsModal" className="col our-dogs-col">
           <div className='overlay d-flex justify-content-center align-items-center'>
             <h3 className='heading'>OUR DOGS GALLERY</h3>
@@ -105,9 +102,6 @@ const Main = () => {
       </div>
       <PuppyModal></PuppyModal>
       <OurDogsModal></OurDogsModal>
-
-
-
 
       <div id='Puppies' className='container mt-4 mb-5'>
         <div className="row text-center">
@@ -131,8 +125,6 @@ const Main = () => {
           </div>
         </div>
       </div>
-
-
 
       <div id='Contact' className="container mb-5 mt-4">
         <ContactForm></ContactForm>
