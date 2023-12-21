@@ -72,6 +72,12 @@ const PuppyModal = () => {
                   </div>
                 </div>
                 <div className="carousel-item">
+                  <img src={require('../../assets/images/image28.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
+                  <div className="carousel-caption d-none d-md-block" >
+                    <h5 className='glow'>Brundo</h5>
+                  </div>
+                </div>
+                <div className="carousel-item">
                   <img src={require('../../assets/images/image13.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
                   <div className="carousel-caption d-none d-md-block" >
                     <h5 className='glow'>Girl</h5>
