@@ -2,14 +2,13 @@ import "./App.css";
 import Main from "./views/Main";
 import NavBar from "./components/NavBar";
 import { Helmet } from "react-helmet";
-import favicon from "../public/favicon.ico";
 
 function App() {
   return (
     <div className="App container-fluid">
       <Helmet>
         {/* Primary Meta Tags */}
-        <title>Cute Mini Poodle Puppies - PuppyPoodles.com</title>
+        <title>Mini Poodles</title>
         <meta
           name="description"
           content="Find adorable Poodle puppies looking for new homes. Our Mini Poodles are playful and well-trained, perfect for families."
