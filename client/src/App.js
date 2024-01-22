@@ -2,6 +2,7 @@ import "./App.css";
 import Main from "./views/Main";
 import NavBar from "./components/NavBar";
 import { Helmet } from "react-helmet";
+import LogoDark from "./assets/logo/logo.svg";
 
 function App() {
   return (
@@ -32,13 +33,13 @@ function App() {
           property="og:description"
           content="Find adorable Poodle puppies looking for new homes. Our Mini Poodles are playful and well-trained, perfect for families."
         />
-        <meta property="og:image" content="%PUBLIC_URL%/favicon.ico" />
+        <meta property="og:image" content={{ LogoDark }} />
         <meta property="og:url" content="https://www.puppypoodles.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Puppy Poodles" />
 
         {/* Twitter Meta Tags */}
-        <meta name="twitter:card" content="%PUBLIC_URL%/favicon.ico" />
+        <meta name="twitter:card" content={{ LogoDark }} />
         <meta
           name="twitter:title"
           content="Cute Mini Poodle Puppies - PuppyPoodles.com"
@@ -47,7 +48,7 @@ function App() {
           name="twitter:description"
           content="Find adorable Poodle puppies looking for new homes. Our Mini Poodles are playful and well-trained, perfect for families."
         />
-        <meta name="twitter:image" content="%PUBLIC_URL%/favicon.ico" />
+        <meta name="twitter:image" content={{ LogoDark }} />
 
         {/* Viewport Settings */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

@@ -1,7 +1,6 @@
 import React from 'react'
 import Logo from "../assets/logo/favicon.svg"
 
-
 const NavBar = () => {
   return (
     <div className="row mb-4">
