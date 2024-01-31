@@ -19,7 +19,7 @@
 }
 
 .b-p-card {
-  height: 190px;
+  height: 230px;
 }
 
 .puppies-col {
@@ -86,9 +86,9 @@ footer {
   color: rgb(233, 233, 233);
 }
 
-@media only screen and (max-width: 1036px) {
+@media only screen and (max-width: 1136px) {
   .b-p-card {
-    height: 210px;
+    height: 275px;
   }
 }
 

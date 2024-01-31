@@ -15,7 +15,7 @@ const Main = () => {
               Mini Poodles
             </strong>
           </h1>
-          <h3 className='heading'>Ultimate companion for all families</h3>
+          <h3 className='heading'>The Perfect Companions for Every Family</h3>
           <a href='#Puppies' className='btn btn-primary btn-lg mt-4 ms-2 shadow'>
             <strong>
               AVAILABLE PUPPIES <br /> NOW!
@@ -26,11 +26,11 @@ const Main = () => {
 
       <div className='container'>
         <div className="row mt-4">
-          <h2 className='mb-4'>WHY POODLE?</h2>
+          <h2 className='mb-4'>Why Choose a Poodle?</h2>
           <div className=" col-md-7 order-2 order-md-1">
-            <h4>Do you value creature comforts but yearn for an adventure companion? The poodle is for you!</h4>
+            <h4>Are you someone who appreciates the finer things in life but also desires a loyal companion for life's adventures? <br /> Look no further than the poodle!</h4>
             <p>
-              I fell in love with poodles because they are like Swiss Army Knives of the dog world! They can do it all; in style and can fit anywhere. They are happy to spend the day at your feet while you work and jump to action for a hike or city stroll. After a day of paddleboarding or shopping at an art festival, the poodle is happy to snuggle with you on the couch. Most important, being with you, in the center of your life, makes a poodle happy
+              I developed a deep affection for poodles because they embody versatility in the canine world - much like the Swiss Army Knife. Whether it's keeping you company at your workspace or joining you for an exhilarating hike or a leisurely city stroll, poodles do it all with flair and adaptability. Picture this: a day filled with paddleboarding or exploring an art festival, and your poodle is equally content to snuggle with you on the couch in the evening. Above all, the true joy of a poodle comes from being an integral part of your life's center, bringing happiness and companionship wherever they go.
             </p>
             <a href='#Contact' className='btn btn-primary btn-lg'>Contact Us</a>
           </div>
@@ -41,23 +41,23 @@ const Main = () => {
       </div>
 
       <div id='AboutUs' className="row mt-4 text-center">
-        <h2 className='mb-4'>OUR BREEDING PRINCIPLES</h2>
+        <h2 className='mb-4'>OUR BREEDING PHYLOSOPHY</h2>
         <div className="col-lg-4 col-md-6">
           <div className="card text-white bg-primary mb-4 p-3 b-p-card" >
-            <h4>Looks and Health</h4>
-            <p>The companion poodle must have a balanced and sound body structure to remain active and healthy. We show our parents in UKC and test through OFA and genetic testing to produce healthy</p>
+            <h4>Balancing Looks and Health</h4>
+            <p>In our pursuit of exceptional companion poodles, we place a strong emphasis on achieving a harmonious blend of both aesthetics and well-being. We firmly believe that a poodle's physical structure plays a pivotal role in its ability to lead an active and healthy lifestyle.</p>
           </div>
         </div>
         <div className="col-lg-4 col-md-6">
           <div className="card text-white bg-primary mb-4 p-3 b-p-card" >
-            <h4>Brains</h4>
-            <p>Our puppies succeed as easily trained everyday companions to their family, medical alert service dogs, dog therapy, and various sports - Obedience, Rally-O, Nosewrok, Barnhunt, and Fly Ball.</p>
+            <h4>Intelligent Companions</h4>
+            <p>At our breeding facility, we take pride in nurturing not just the physical attributes of our poodle puppies but also their exceptional intelligence. Our commitment to producing well-rounded companions extends to their cognitive abilities, setting the stage for success in various roles.</p>
           </div>
         </div>
         <div className="col-lg-4">
           <div className="card text-white bg-primary mb-4 p-3 b-p-card" >
-            <h4>Upbringing</h4>
-            <p>Puppies raised with early socialization curriculums are provided with the foundation to become well-adjusted adults and influence puppies' communication with humans.</p>
+            <h4>Puppy Upbringing</h4>
+            <p>We recognize the critical importance of early socialization in shaping the development of our puppies. Through carefully designed socialization curriculums, we lay the groundwork for their journey toward becoming well-adjusted adults and fostering meaningful connections with humans.</p>
           </div>
         </div>
       </div>
