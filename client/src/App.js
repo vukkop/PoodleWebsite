@@ -17,7 +17,7 @@ function App() {
         {/* Keywords */}
         <meta
           name="keywords"
-          content="Poodle, Poodles, Puppy, Puppies, Dog, M, Edmonton, Vancouver"
+          content="Poodle, Poodles, Puppy, Puppies, Dog, Edmonton, Vancouver"
         />
 
         {/* Author */}
@@ -53,7 +53,6 @@ function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         {/* Canonical URL */}
-        <link rel="canonical" href="https://www.puppypoodles.com/" />
 
         {/* Robots Meta Tag */}
         <meta name="robots" content="index, follow" />
