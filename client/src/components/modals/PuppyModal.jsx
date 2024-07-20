@@ -18,6 +18,54 @@ const PuppyModal = () => {
             <div id="carouselPuppyCaptions" className="carousel slide d-flex align-items-center justify-content-center" data-bs-theme="dark">
               <div className="carousel-inner">
                 <div className="carousel-item active">
+                  <img src={require('../../assets/images/litter2/image1.1.jpeg')} className="d-block rounded mx-auto img-fluid" alt="puppy" />
+                  <div className="carousel-caption d-none d-md-block">
+                    <h5 className='glow'>Girl</h5>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <img src={require('../../assets/images/litter2/image1.2.jpeg')} className="d-block rounded mx-auto img-fluid" alt="puppy" />
+                  <div className="carousel-caption d-none d-md-block">
+                    <h5 className='glow'>Girl</h5>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <img src={require('../../assets/images/litter2/image1.3.jpeg')} className="d-block rounded mx-auto img-fluid" alt="puppy" />
+                  <div className="carousel-caption d-none d-md-block">
+                    <h5 className='glow'>Girl</h5>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <img src={require('../../assets/images/litter2/image1.4.jpeg')} className="d-block rounded mx-auto img-fluid" alt="puppy" />
+                  <div className="carousel-caption d-none d-md-block">
+                    <h5 className='glow'>Girl</h5>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <img src={require('../../assets/images/litter2/image1.5.jpeg')} className="d-block rounded mx-auto img-fluid" alt="puppy" />
+                  <div className="carousel-caption d-none d-md-block">
+                    <h5 className='glow'>Girl</h5>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <img src={require('../../assets/images/litter2/image1.6.jpeg')} className="d-block rounded mx-auto img-fluid" alt="puppy" />
+                  <div className="carousel-caption d-none d-md-block">
+                    <h5 className='glow'>Girl</h5>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <img src={require('../../assets/images/litter2/image1.7.jpeg')} className="d-block rounded mx-auto img-fluid" alt="puppy" />
+                  <div className="carousel-caption d-none d-md-block">
+                    <h5 className='glow'>Girl</h5>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <img src={require('../../assets/images/litter2/image1.8.jpeg')} className="d-block rounded mx-auto img-fluid" alt="puppy" />
+                  <div className="carousel-caption d-none d-md-block">
+                    <h5 className='glow'>Girl</h5>
+                  </div>
+                </div>
+                <div className="carousel-item">
                   <img src={require('../../assets/images/image4.JPEG')} className="d-block rounded mx-auto img-fluid" alt="puppy" />
                   <div className="carousel-caption d-none d-md-block">
                     <h5 className='glow'>Girl</h5>

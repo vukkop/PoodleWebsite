@@ -56,6 +56,18 @@ const OurDogsModal = () => {
                     <h5 className='glow'>Abuk Puppies Mom</h5>
                   </div>
                 </div>
+                <div className="carousel-item">
+                  <img src={require('../../assets/images/image13.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
+                  <div className="carousel-caption d-none d-md-block" >
+                    <h5 className='glow'>Girl</h5>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <img src={require('../../assets/images/image22.JPEG')} className="d-block rounded mx-auto img-fluid" alt="..." />
+                  <div className="carousel-caption d-none d-md-block" >
+                    <h5 className='glow'>Brundo</h5>
+                  </div>
+                </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselOurDogsCaptions" data-bs-slide="prev">
                   <span className="carousel-control-prev-icon text-danger" aria-hidden="true"></span>
                   <span className="visually-hidden">Previous</span>
