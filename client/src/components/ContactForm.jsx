@@ -9,7 +9,6 @@ const ContactForm = () => {
     message: '',
   });
   const [status, setStatus] = useState("");
-  const [loading, setLoading] = useState(false);
   const form = useRef()
 
   const sendEmail = (e) => {
