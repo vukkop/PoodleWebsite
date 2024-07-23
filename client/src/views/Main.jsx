@@ -6,6 +6,9 @@ import OurDogsModal from '../components/modals/OurDogsModal'
 import ContactForm from '../components/ContactForm'
 
 const Main = () => {
+  const contactInfo = {
+    email: 'puppypoodles1@gmail.com',
+  }
   return (
     <div id='Home' className='mt-5'>
       <div className="row row-1 align-items-center">
@@ -155,6 +158,7 @@ const Main = () => {
 
       <div id='Contact' className="container mb-5 mt-4">
         <ContactForm></ContactForm>
+        <h4 className="text-center mt-4" >Alternatively click <a href={`mailto:${contactInfo.email}`}>HERE</a> to send us an email.</h4>
       </div>
 
       <footer className='row text-center align-items-center bg-primary'>

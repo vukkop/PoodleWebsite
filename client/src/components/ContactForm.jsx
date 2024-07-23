@@ -9,6 +9,7 @@ const ContactForm = () => {
     message: '',
   });
   const [status, setStatus] = useState("");
+  const [loading, setLoading] = useState(false);
   const form = useRef()
 
   const sendEmail = (e) => {
@@ -16,6 +17,13 @@ const ContactForm = () => {
       .then((result) => {
         setStatus("200")
         console.log(result.text, "Status is 200");
+        setContactForm({
+          name: '',
+          email: '',
+          phoneNumber: '',
+          subject: '',
+          message: '',
+        })
         setTimeout(() => {
           setStatus("");
         }, 4000);
@@ -31,13 +39,6 @@ const ContactForm = () => {
   const handleSubmit = e => {
     e.preventDefault();
     sendEmail(e)
-    setContactForm({
-      name: '',
-      email: '',
-      phoneNumber: '',
-      subject: '',
-      message: '',
-    })
   }
 
   const onChangeHandler = (e) => {
@@ -47,7 +48,7 @@ const ContactForm = () => {
   }
 
   return (
-    <form ref={form} onSubmit={handleSubmit} noValidate action="">
+    <form ref={form} onSubmit={handleSubmit} action="">
       <div className="card border-secondary mb-3">
         <div className="card-header bg-primary-subtle"><h3 className='text-center'>CONTACT</h3></div>
         <div className="card-body">
@@ -56,11 +57,11 @@ const ContactForm = () => {
             <div className="col-md-6">
               <div className="mb-3">
                 <label htmlFor="name" className="form-label">Name</label>
-                <input name='name' type="text" onChange={onChangeHandler} value={contactForm.name} className="form-control" id="name" placeholder="Please provide us your name" />
+                <input name='name' type="text" required onChange={onChangeHandler} value={contactForm.name} className="form-control" id="name" placeholder="Please provide us your name" />
               </div>
               <div className="mb-3">
                 <label htmlFor="email" className="form-label">Email</label>
-                <input name='email' type="email" onChange={onChangeHandler} value={contactForm.email} className="form-control" id="email" placeholder="name@example.com" />
+                <input name='email' type="email" required onChange={onChangeHandler} value={contactForm.email} className="form-control" id="email" placeholder="name@example.com" />
               </div>
               <div className="mb-3">
                 <label htmlFor="phoneNumber" className="form-label">Phone Number</label>
@@ -71,7 +72,7 @@ const ContactForm = () => {
             <div className="col-md-6">
               <div className="mb-3">
                 <label htmlFor="message" className="form-label">Message</label>
-                <textarea name='message' onChange={onChangeHandler} value={contactForm.message} className="form-control" id="message" rows="6" placeholder="Please write us a message, question, request..."></textarea>
+                <textarea name='message' required onChange={onChangeHandler} value={contactForm.message} className="form-control" id="message" rows="6" placeholder="Please write us a message, question, request..."></textarea>
               </div>
               <button type='submit' className='btn btn-primary float-end'>Send</button>
             </div>
@@ -80,14 +81,14 @@ const ContactForm = () => {
         </div>
       </div>
       {status === "200" &&
-        <div class="alert alert-dismissible alert-success position-fixed bottom-0 end-0 me-4">
-          <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <div className="alert alert-dismissible alert-success position-fixed bottom-0 end-0 me-4">
+          <button type="button" className="btn-close" data-bs-dismiss="alert"></button>
           Your message was <strong>sent successfully</strong>.
         </div>
       }
       {status === "500" &&
-        <div class="alert alert-dismissible alert-danger position-fixed bottom-0 end-0 me-4">
-          <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <div className="alert alert-dismissible alert-danger position-fixed bottom-0 end-0 me-4">
+          <button type="button" className="btn-close" data-bs-dismiss="alert"></button>
           Message was <strong>not sent</strong>. Please try again.
         </div>
       }
