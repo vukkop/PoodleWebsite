@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.3bbbbb59.css",
-    "main.js": "/static/js/main.5b8407ab.js",
+    "main.css": "/static/css/main.bdf8f63e.css",
+    "main.js": "/static/js/main.b984d272.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/image22.JPEG": "/static/media/image22.296fc727e99f52867d6a.JPEG",
     "static/media/image6.JPEG": "/static/media/image6.b1f2e1af9ff9c83cbd74.JPEG",
     "static/media/image16.JPEG": "/static/media/image16.21d6263bddbb2a763d9d.JPEG",
     "static/media/image5.JPEG": "/static/media/image5.cd0d9d88eefe4fd524f7.JPEG",
+    "static/media/image29.JPEG": "/static/media/image29.bbd01c97b37eb57cbd8d.JPEG",
     "static/media/image27.JPEG": "/static/media/image27.5a329c0f3f6486a85952.JPEG",
     "static/media/image26.JPEG": "/static/media/image26.92da789f88f53c43551c.JPEG",
     "static/media/image20.JPEG": "/static/media/image20.abd7b361f64593f0ddb5.JPEG",
@@ -37,12 +38,12 @@
     "static/media/image9.JPEG": "/static/media/image9.568b8b1446f366dd27fa.JPEG",
     "static/media/favicon.svg": "/static/media/favicon.ba445df320dc59804d01be363c6ca9fc.svg",
     "index.html": "/index.html",
-    "main.3bbbbb59.css.map": "/static/css/main.3bbbbb59.css.map",
-    "main.5b8407ab.js.map": "/static/js/main.5b8407ab.js.map",
+    "main.bdf8f63e.css.map": "/static/css/main.bdf8f63e.css.map",
+    "main.b984d272.js.map": "/static/js/main.b984d272.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bbbbb59.css",
-    "static/js/main.5b8407ab.js"
+    "static/css/main.bdf8f63e.css",
+    "static/js/main.b984d272.js"
   ]
 }
