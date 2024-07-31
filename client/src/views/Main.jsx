@@ -67,8 +67,13 @@ const Main = () => {
 
       <div id='Puppies' className='container mt-4 mb-5'>
         <div className="row text-center">
-
-          <h2 className='mb-4'>AVAILABLE PUPPIES</h2>
+          <div className="col-3"></div>
+          <div className="col-6">
+            <h2 className=''>AVAILABLE PUPPIES</h2>
+          </div>
+          <div className="col-lg-3 col-md-12 mb-2">
+            <h2 className='' ><span class="badge text-bg-success p-3">Genetically Tested</span></h2>
+          </div>
 
           <div className="col-xl-3 col-md-6">
             <div className="d-flex">
@@ -100,6 +105,26 @@ const Main = () => {
               <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter2/image1.8.jpeg')} alt="Puppie Boy 4" />
             </div>
             <h4>Boy #4</h4>
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-primary-subtle row'>
+        <div className='container mt-4 mb-5'>
+          <div className="row text-center">
+            <h2 className='mb-4'>PARENTS</h2>
+            <div className="col-md-12 col-lg-6 mb-4">
+              <div className="d-flex">
+                <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image29.JPEG')} alt="Puppie Girl 1" />
+              </div>
+              <h4>Bamm Bamm</h4>
+            </div>
+            <div className="col-md-12 col-lg-6">
+              <div className="d-flex">
+                <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image21.JPEG')} alt="Puppie Boy 2" />
+              </div>
+              <h4>Abuk</h4>
+            </div>
           </div>
         </div>
       </div>
