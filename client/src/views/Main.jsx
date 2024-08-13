@@ -100,11 +100,17 @@ const Main = () => {
           </div>
 
           <div className="col-xl-3 col-md-6">
-            <div className="d-flex">
-              <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter2/image1.7.jpeg')} alt="Puppie Boy 4" />
-              <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter2/image1.8.jpeg')} alt="Puppie Boy 4" />
+
+            <div className="d-flex justify-content-center">
+              <div className='image d-flex justify-content-around w-100'>
+                <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter2/image1.7.jpeg')} alt="Puppie Boy 4" />
+                <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter2/image1.8.jpeg')} alt="Puppie Boy 4" />
+                <div className='just-rehomed'>
+                  <h5 className='px-2 py-1 m-0 text-light'>Just Rehomed</h5>
+                </div>
+              </div>
             </div>
-            <h4>Boy #4</h4>
+            <h4>Fudge</h4>
           </div>
         </div>
       </div>

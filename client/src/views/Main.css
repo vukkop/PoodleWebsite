@@ -75,6 +75,26 @@
   background-color: #38b44a;
 }
 
+@keyframes blink {
+  0% {
+    background-color: #38b44a;
+  }
+  50% {
+    background-color: #40c955;
+  }
+  100% {
+    background-color: #38b44a;
+  }
+}
+.just-rehomed {
+  position: absolute;
+  right: 25%;
+  bottom: 10px;
+  z-index: 1;
+  background-color: #38b44a;
+  animation: blink 1s infinite;
+}
+
 footer {
   height: 50px;
 }
