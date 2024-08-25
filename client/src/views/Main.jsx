@@ -4,6 +4,7 @@ import poodlePhoto from "../assets/images/image10.JPEG"
 import PuppyModal from '../components/modals/PuppyModal'
 import OurDogsModal from '../components/modals/OurDogsModal'
 import ContactForm from '../components/ContactForm'
+import { Testimonials } from '../components/Testimonials'
 
 const Main = () => {
   const contactInfo = {
@@ -186,11 +187,12 @@ const Main = () => {
                 {/* <h5 className='px-2 py-1 m-0 text-light'>Just Rehomed</h5> */}
               </div>
             </div>
-            <h4>Brown Nose</h4>
+            <h4>Fred</h4>
           </div>
         </div>
       </div>
 
+      <Testimonials></Testimonials>
 
       <div id='Contact' className="container mb-5 mt-4">
         <ContactForm></ContactForm>
