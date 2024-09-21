@@ -91,19 +91,29 @@ const Main = () => {
 
 
           <div className="col-xl-3 col-md-6">
-            <div className="d-flex">
-              <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter2/image1.3.jpeg')} alt="Puppie Boy 2" />
-              <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter2/image1.4.jpeg')} alt="Puppie Boy 2" />
+            <div className="d-flex justify-content-center">
+              <div className='image d-flex justify-content-around w-100'>
+                <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter2/image1.3.jpeg')} alt="Puppie Boy 2" />
+                <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter2/image1.4.jpeg')} alt="Puppie Boy 2" />
+                <div className='just-rehomed'>
+                  <h5 className='px-2 py-1 m-0 text-light'>Just Rehomed</h5>
+                </div>
+              </div>
             </div>
-            <h4>Boy #2</h4>
+            <h4>Bora</h4>
           </div>
 
           <div className="col-xl-3 col-md-6">
-            <div className="d-flex">
-              <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter2/image1.5.jpeg')} alt="Puppie Boy 3" />
-              <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter2/image1.6.jpeg')} alt="Puppie Boy 3" />
+            <div className="d-flex justify-content-center">
+              <div className='image d-flex justify-content-around w-100'>
+                <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter2/image1.5.jpeg')} alt="Puppie Boy 3" />
+                <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter2/image1.6.jpeg')} alt="Puppie Boy 3" />
+                <div className='just-rehomed'>
+                  <h5 className='px-2 py-1 m-0 text-light'>Just Rehomed</h5>
+                </div>
+              </div>
             </div>
-            <h4>Boy #3</h4>
+            <h4>Teddy</h4>
           </div>
 
           <div className="col-xl-3 col-md-6">
