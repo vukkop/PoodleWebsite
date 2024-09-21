@@ -66,6 +66,19 @@ const Main = () => {
         </div>
       </div>
 
+      <div className="container">
+        <div className="row mt-4 text-center">
+          <h2 className='mb-4'>OUR BREEDING DOGS</h2>
+          <div className="col-lg-6 col-md-12">
+            <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/BreadingDogs/Brundo.jpeg')} alt="Brundo" />
+          </div>
+          <div className="col-lg-6 col-md-12">
+            <h4 className='mt-3'>Brundo</h4>
+            <p className=' pe-5'>Meet Brundo, our handsome male Poodle available for breeding. With his striking appearance, intelligent nature, and excellent health, Brundo is an exceptional choice for producing beautiful, well-tempered puppies. He has a friendly, playful personality and comes from a strong lineage of healthy, well-behaved Poodles. Whether you're looking to enhance your breeding program or searching for the perfect sire for your next litter, Brundo is ready to contribute his outstanding traits.</p>
+          </div>
+        </div>
+      </div>
+
       <div id='Puppies' className='container mt-4 mb-5'>
         <div className="row text-center">
           <div className="col-3"></div>
