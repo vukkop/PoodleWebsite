@@ -15,10 +15,33 @@ const AvailablePuppies = () => {
 
 
         <div className="row text-center mt-3 mb-3">
+          <div className="col-12 col-sm-6 col-md-3 mt-3 mb-3">
+            <div className='image mx-auto'>
+              <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter3/puppy2.JPG')} alt="Puppie Boy 4" />
+            </div>
+          </div>
+          <div className="col-12 col-sm-6 col-md-3 mt-3 mb-3">
+            <div className='image mx-auto'>
+              <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter3/puppy3.JPG')} alt="Puppie Boy 4" />
+            </div>
+          </div>
+          <div className="col-12 col-sm-6 col-md-3 mt-3 mb-3">
+            <div className='image mx-auto'>
+              <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter3/puppy4.JPG')} alt="Puppie Boy 4" />
+            </div>
+          </div>
+          <div className="col-12 col-sm-6 col-md-3 mt-3 mb-3">
+            <div className='image mx-auto'>
+              <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter3/puppy5.JPG')} alt="Puppie Boy 4" />
+            </div>
+          </div>
+        </div>
+
+        <div className="row text-center mt-3 mb-3">
           <div className="col-sm-2"></div>
           <div className="col-6 col-sm-4">
             <div className='image mx-auto'>
-              <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter3/img-1.jpeg')} alt="Puppie Boy 4" />
+              <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter3/allPuppies.JPG')} alt="Puppie Boy 4" />
             </div>
           </div>
 
