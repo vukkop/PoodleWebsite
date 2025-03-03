@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8aa88137.css",
-    "main.js": "/static/js/main.3c9da067.js",
+    "main.css": "/static/css/main.e54ff1b1.css",
+    "main.js": "/static/js/main.95872a09.js",
     "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
     "static/media/allPuppies.JPG": "/static/media/allPuppies.61cdafacb11446b36a13.JPG",
     "static/media/img-2.jpeg": "/static/media/img-2.4c5e469ea87dcfbe6a0e.jpeg",
@@ -12,6 +12,7 @@
     "static/media/image5.JPEG": "/static/media/image5.cd0d9d88eefe4fd524f7.JPEG",
     "static/media/image-1.jpeg": "/static/media/image-1.197cef4a5f9dd12874c6.jpeg",
     "static/media/image29.JPEG": "/static/media/image29.bbd01c97b37eb57cbd8d.JPEG",
+    "static/media/Gazoo.JPG": "/static/media/Gazoo.0074f99bd6f71a6a7111.JPG",
     "static/media/testimonial2.jpeg": "/static/media/testimonial2.4f3af7f70efa1a660842.jpeg",
     "static/media/image27.JPEG": "/static/media/image27.5a329c0f3f6486a85952.JPEG",
     "static/media/image26.JPEG": "/static/media/image26.92da789f88f53c43551c.JPEG",
@@ -21,15 +22,19 @@
     "static/media/image14.JPEG": "/static/media/image14.d9bd15ea08388b3a77ea.JPEG",
     "static/media/image21.JPEG": "/static/media/image21.a7af0842333b9eca07af.JPEG",
     "static/media/image13.JPEG": "/static/media/image13.942d18fb64753283e8c9.JPEG",
+    "static/media/white.JPEG": "/static/media/white.30f89513b358493b690a.JPEG",
     "static/media/image2.JPEG": "/static/media/image2.680b12f47a9cedf256f2.JPEG",
     "static/media/image19.JPEG": "/static/media/image19.259450406fc2058c2c91.JPEG",
     "static/media/puppy3.JPG": "/static/media/puppy3.ca2feefbd409eddc269c.JPG",
     "static/media/image7.JPEG": "/static/media/image7.2d4295d3e5ae57eb5384.JPEG",
     "static/media/image11.JPEG": "/static/media/image11.35c73c907139dd183d0f.JPEG",
+    "static/media/yellow.JPEG": "/static/media/yellow.1244774c7d73ba051319.JPEG",
     "static/media/image15.JPEG": "/static/media/image15.8e36a61ab0d1ac8ddd1f.JPEG",
     "static/media/puppy2.JPG": "/static/media/puppy2.9b75c26d6493b5262339.JPG",
     "static/media/image12.JPEG": "/static/media/image12.4a1df83cad76460de28e.JPEG",
+    "static/media/brown.JPEG": "/static/media/brown.36871586bc4169942793.JPEG",
     "static/media/image1.8.jpeg": "/static/media/image1.8.1c6078a4ebd66268593b.jpeg",
+    "static/media/blue.JPEG": "/static/media/blue.ca123ed455930a3e3bfc.JPEG",
     "static/media/image18.JPEG": "/static/media/image18.30e471de304dd091e3ce.JPEG",
     "static/media/image1.1.jpeg": "/static/media/image1.1.4adfb87f74a23a6d4170.jpeg",
     "static/media/image1.6.jpeg": "/static/media/image1.6.0072c6b78f1f7560a6ff.jpeg",
@@ -47,12 +52,12 @@
     "static/media/image9.JPEG": "/static/media/image9.568b8b1446f366dd27fa.JPEG",
     "static/media/favicon.svg": "/static/media/favicon.ba445df320dc59804d01be363c6ca9fc.svg",
     "index.html": "/index.html",
-    "main.8aa88137.css.map": "/static/css/main.8aa88137.css.map",
-    "main.3c9da067.js.map": "/static/js/main.3c9da067.js.map",
+    "main.e54ff1b1.css.map": "/static/css/main.e54ff1b1.css.map",
+    "main.95872a09.js.map": "/static/js/main.95872a09.js.map",
     "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8aa88137.css",
-    "static/js/main.3c9da067.js"
+    "static/css/main.e54ff1b1.css",
+    "static/js/main.95872a09.js"
   ]
 }
