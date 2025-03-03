@@ -7,6 +7,15 @@ const PuppiesFoundHappyHome = () => {
         <h2 className='mb-4'>PUPPIES FOUND HAPPY HOME</h2>
         <div className="col-lg-3">
           <div className='image mx-auto'>
+            <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/litter3/Gazoo.JPG')} alt="Puppie Brown Nose" />
+            <div className='rehomed'>
+              <h5 className='px-2 py-1 m-0 text-light'>Rehomed</h5>
+            </div>
+          </div>
+          <h4>Gazoo</h4>
+        </div>
+        <div className="col-lg-3">
+          <div className='image mx-auto'>
             <img className='d-block rounded mx-auto img-fluid av-img' src={require('../assets/images/image25.JPEG')} alt="Puppie Brown Nose" />
             <div className='rehomed'>
               <h5 className='px-2 py-1 m-0 text-light'>Rehomed</h5>

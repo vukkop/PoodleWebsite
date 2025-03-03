@@ -73,6 +73,7 @@
   top: 10px;
   z-index: 1;
   background-color: #38b44a;
+  border-radius: 5px 0px 0px 5px;
 }
 
 @keyframes blink {
@@ -93,6 +94,7 @@
   z-index: 1;
   background-color: #38b44a;
   animation: blink 1s infinite;
+  border-radius: 5px;
 }
 
 footer {
